@@ -12,6 +12,7 @@ export default defineConfig(({ command }) => {
     root: 'src',
     build: {
       sourcemap: true,
+      target: 'esnext',
       rollupOptions: {
         input: glob.sync('./src/*.html'),
         output: {
