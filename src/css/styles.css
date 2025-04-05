@@ -126,22 +126,21 @@ header {
   background-color: #0056b3;
 }
 .simple-lightbox .sl-close {
-  background-color: rgba(31, 30, 30, 0.425);
+  background-color: rgba(0, 0, 0, 0.6);
+
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease;
 }
 
 .simple-lightbox .sl-close:hover,
 .simple-lightbox .sl-close:focus {
-  background-color: rgba(7, 93, 253, 0.664);
-  transform: scale(1.1);
+  background-color: rgba(80, 102, 228, 0.8);
 }
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);
