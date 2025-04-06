@@ -126,7 +126,7 @@ header {
   background-color: #0056b3;
 }
 .simple-lightbox .sl-close {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.384);
 
   border-radius: 50%;
   width: 40px;
@@ -135,11 +135,12 @@ header {
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease;
+  position: relative;
 }
 
 .simple-lightbox .sl-close:hover,
 .simple-lightbox .sl-close:focus {
-  background-color: rgba(80, 102, 228, 0.8);
+  background-color: rgba(10, 73, 245, 0.623);
 }
 @keyframes spin {
   0% {
